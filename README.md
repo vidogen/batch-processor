@@ -1,0 +1,1 @@
+![Batch-Process](/assets/batch-process.png)
