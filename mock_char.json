@@ -1,0 +1,39 @@
+{
+    "name": "Eryndor Vale",
+    "title": "The Ashen Ranger",
+    "race": "Half-Elf",
+    "age": 132,
+    "class": "Ranger",
+    "alignment": "Neutral Good",
+    "realm": "Virelia",
+    "appearance": {
+      "height_cm": 183,
+      "build": "lean and athletic",
+      "hair": "silver with dark roots, shoulder-length",
+      "eyes": "emerald green",
+      "notable_features": "burn scar across left cheek, rune tattoo on right forearm"
+    },
+    "gear": {
+      "weapon": "Yew longbow named Whisperwind",
+      "armor": "light leather armor reinforced with shadowsteel stitching",
+      "accessories": [
+        "hunter's cloak with forest camo enchantment",
+        "ring of silent steps",
+        "quiver of never-ending arrows (limited charge)"
+      ]
+    },
+    "skills": {
+      "combat": ["archery mastery", "dual dagger combat", "trap setting"],
+      "survival": ["tracking", "foraging", "beast handling"],
+      "magic": ["minor nature attunement", "fog veil casting"]
+    },
+    "personality": {
+      "traits": ["quiet", "observant", "calculated"],
+      "flaws": ["trust issues", "obsessive hunter instincts"],
+      "ideals": "balance between nature and civilization",
+      "bond": "protects the last living forest of Virelia"
+    },
+    "backstory": "Once a royal scout, Eryndor was betrayed during a border war and left for dead in the Ashen Woods. He survived by bonding with forest spirits and now acts as a lone guardian of forbidden wildlands.",
+    "current_goal": "hunt the corrupted sorcerer who burned his homeland",
+    "level": 17
+  }

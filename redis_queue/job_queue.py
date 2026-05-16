@@ -2,16 +2,17 @@ import json
 from config.redis import redis_client
 from constants import CHAR_SHEET_IMG_QUEUE
 
-def add_job_to_queue(job):
+def add_job_to_queue(job: dict):
     redis_client.lpush(CHAR_SHEET_IMG_QUEUE, json.dumps(job))
     print(f"job added: {job['job_id']}")
+    print(f"job: {job}")
 
 def get_job_from_queue():
     _, job_data = redis_client.brpop(CHAR_SHEET_IMG_QUEUE)
 
     job = json.loads(job_data)
 
-    print(f"job popped: {job['job_id']}")
+    print(f"job pooped: {job['job_id']}")
     return job
 
 def clear_queue():
