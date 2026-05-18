@@ -1,4 +1,3 @@
-from datetime import datetime
 from time import sleep
 from config.celery import celery
 from models.job import Job, JobStatus
