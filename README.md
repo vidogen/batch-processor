@@ -23,12 +23,21 @@ The batch processor is designed as a reusable layer for multiple Gen AI pipeline
 
 ## start celery worker
 
-`
+```bash id="8b9n2c"
 celery -A config.celery.celery worker --concurrency=3 --loglevel=info
-`
+```
+
+* `-A`
+  → tells Celery where the Celery app instance exists
+
+* `--concurrency=3`
+  → this single worker can process 3 jobs in parallel
+
+* running 4 workers with concurrency 3:
+  → `4 × 3 = 12` parallel jobs
 
 ## start publishing jobs
 
-`
+```bash id="k3v7qp"
 python -m tests.test_celery
-`
+```
