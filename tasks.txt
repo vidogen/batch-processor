@@ -1,0 +1,4 @@
+-- make the batch-processor as a independent module that can be customised based on the job type. this will make batch processor a reusable service among  all the gen ai pipelines
+-- the image gen logic is currently independent which it should be. just need to attach it to the worker as the worker's task. 
+-- write a shared token bucket logic for rate limiting workers to burst down the gemini api with too many requests. will use redis for it. 
+

@@ -1,7 +1,9 @@
 from datetime import datetime
 import uuid
+
 from models.job import Job, JobStatus
-from workers import process_job
+from core.worker import process_job
+
 
 def send_jobs(n=100):
     for i in range(n):

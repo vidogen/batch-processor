@@ -1,5 +1,5 @@
 from celery import Celery
-from constants import CHAR_SHEET_IMG_QUEUE, BROKER, BACKEND_CELERY
+from config.constants import CHAR_SHEET_IMG_QUEUE, BROKER, BACKEND_CELERY
 
 celery = Celery(
     CHAR_SHEET_IMG_QUEUE,

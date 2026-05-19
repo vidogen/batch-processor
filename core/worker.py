@@ -1,6 +1,6 @@
 from time import sleep
 from config.celery import celery
-from models.job import Job, JobStatus
+from models.job import JobStatus
 from celery.app.task import Task
 
 @celery.task(bind=True, max_retries=3)

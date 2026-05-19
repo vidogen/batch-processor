@@ -1,6 +1,6 @@
 from google.genai.interactions import image_config
 from langchain_google_genai import ChatGoogleGenerativeAI
-from constants import GOOGLE_API_KEY
+from config.constants import GOOGLE_API_KEY
 
 gemini_model = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash-image",
